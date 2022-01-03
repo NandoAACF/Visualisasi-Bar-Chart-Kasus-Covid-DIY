@@ -97,3 +97,5 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
 plt.grid(axis='y')
 plt.tight_layout()
 plt.show()
+
+# Kode sudah diadaptasi dan disempurnakan dari tutorial DQ Lab
