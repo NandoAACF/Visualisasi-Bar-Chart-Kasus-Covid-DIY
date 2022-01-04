@@ -7,3 +7,4 @@
 ### - Bar Chart Penambahan Kasus Sembuh Covid-19 di DIY
 ### - Bar Chart Penambahan Kasus Meninggal Covid-19 di DIY
 ### Terima Kasih 😀
+
