@@ -99,3 +99,4 @@ plt.tight_layout()
 plt.show()
 
 # Kode sudah diadaptasi dan disempurnakan dari tutorial DQ Lab
+
