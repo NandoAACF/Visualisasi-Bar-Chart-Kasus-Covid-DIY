@@ -24,7 +24,7 @@ cov_diy_tidy['tanggal'] = pd.to_datetime(cov_diy_tidy['tanggal'] * 1e6, unit='ns
 
 print("Data lima teratas", cov_diy_tidy.head())
 
-#Visualisasi Jumlah Penambahan Kasus Covid
+#Visualisasi Jumlah Penambahan Kasus Positif Covid
 plt.clf()
 fig, ax = plt.subplots(figsize=(10,5))
 ax.bar(data=cov_diy_tidy, x='tanggal', height='kasus_baru', color='salmon')
@@ -47,7 +47,7 @@ plt.tight_layout()
 fig.autofmt_xdate()
 plt.show()
 
-#Visualisasi Jumlah Penambahan Kasus Sembuh
+#Visualisasi Jumlah Penambahan Kasus Sembuh dari Covid
 plt.clf()
 fig, ax = plt.subplots(figsize=(10,5))
 ax.bar(data=cov_diy_tidy, x='tanggal', height='sembuh', color="olivedrab")
@@ -79,7 +79,7 @@ or item.startswith('DIRAWAT')])
 cov_diy_tidy['tanggal'] = pd.to_datetime(cov_diy_tidy['tanggal']*1e6, unit='ns')
 
 
-#Visualisasi Jumlah Penambahan Kasus Meninggal
+#Visualisasi Jumlah Penambahan Kasus Meninggal karena Covid
 plt.clf()
 fig, ax = plt.subplots(figsize=(10,5))
 ax.bar(data=cov_diy_tidy, x='tanggal', height='meninggal', color='slategrey')
